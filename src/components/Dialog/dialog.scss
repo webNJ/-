@@ -1,0 +1,14 @@
+#dialog{
+    position: fixed;
+    z-index: 999;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: rotateY(-50%);
+    margin: auto;
+    padding: .1rem .2rem;
+    background-color: #000;
+    opacity: .6;
+    color:#fff;
+    border-radius: 20px;
+}

@@ -1,0 +1,36 @@
+#index{
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   width: 100%;;
+   .content{
+       flex: 1;
+       overflow: hidden;
+       overflow-y: scroll;
+   }
+   .footer{
+       height: 40px;
+       display: flex;
+       text-align: center;
+       background-color: #fff;
+       li{
+           flex: 1
+       }
+       span{
+           display: block;
+           color:#000!important;
+       }
+       .iconfont{
+          
+           font-size: .14rem
+       }
+   }
+   .tab-active{
+        span{
+            color:#fc4141!important
+        }
+
+   }
+}

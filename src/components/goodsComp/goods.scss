@@ -1,0 +1,28 @@
+.goods-item{
+    width: 50%;
+    height: 2.3rem;;
+    float: left;
+    padding:10px;
+    border:1px solid #eeeeee;
+    box-sizing: border-box;
+    
+    dt{
+        width: 100%;
+        img{
+            width: 100%;
+            height: auto
+        }
+    }
+   .iconfont{
+       float: right;
+   }
+   dd{
+       p{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        margin: 5px;;
+       }
+   }
+}
